@@ -1,0 +1,70 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1715555000000,
+    "data": {
+      "genesis": true,
+      "message": "Genesis block of external blockchain",
+      "creator": "External Network"
+    },
+    "previousHash": "",
+    "hash": "0000a86b5b39b3e42e9f43541ab4e516b8a3137e5c68af37da38d19adf75f7e9",
+    "nonce": 1234
+  },
+  {
+    "index": 1,
+    "timestamp": 1715555100000,
+    "data": {
+      "transaction": {
+        "sender": "External1",
+        "recipient": "External2",
+        "amount": 10000
+      }
+    },
+    "previousHash": "0000a86b5b39b3e42e9f43541ab4e516b8a3137e5c68af37da38d19adf75f7e9",
+    "hash": "0000f97d0eeabebe78a26df56e4b75b9ff23bd7c7ba9ed887acb18b95f1bab8a",
+    "nonce": 5678
+  },
+  {
+    "index": 2,
+    "timestamp": 1715555200000,
+    "data": {
+      "transaction": {
+        "sender": "External3",
+        "recipient": "External1",
+        "amount": 5000
+      }
+    },
+    "previousHash": "0000f97d0eeabebe78a26df56e4b75b9ff23bd7c7ba9ed887acb18b95f1bab8a",
+    "hash": "00009532ec37ab1cf779166633edb28582dd7acf92ab4d309d2bc162c94b10db",
+    "nonce": 9012
+  },
+  {
+    "index": 3,
+    "timestamp": 1715555300000,
+    "data": {
+      "transaction": {
+        "sender": "External2",
+        "recipient": "External4",
+        "amount": 2500
+      }
+    },
+    "previousHash": "00009532ec37ab1cf779166633edb28582dd7acf92ab4d309d2bc162c94b10db",
+    "hash": "0000c2ed7ea86dde73615be72a3c69a05e093069def765adc9c9a9b77a642ea8",
+    "nonce": 3456
+  },
+  {
+    "index": 4,
+    "timestamp": 1715555400000,
+    "data": {
+      "transaction": {
+        "sender": "External4",
+        "recipient": "External5",
+        "amount": 1250
+      }
+    },
+    "previousHash": "0000c2ed7ea86dde73615be72a3c69a05e093069def765adc9c9a9b77a642ea8",
+    "hash": "0000af8a493ae1b8c0249a0d8aefc85944eba71a0d9c4048cca1a5b2e3248cac",
+    "nonce": 7890
+  }
+]
