@@ -52,8 +52,8 @@ Trong blockchain truyền thống, các khối được thêm vào chỉ theo m�
 
 1. **Clone dự án:**
    ```
-   git clone https://github.com/username/bidirectional-blockchain.git
-   cd bidirectional-blockchain
+   git clone https://github.com/zuun1989/BlockchainNavigator.git
+   cd BlockchainNavigator
    ```
 
 2. **Cài đặt dependencies:**
